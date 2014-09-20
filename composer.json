@@ -41,10 +41,11 @@
     "license": "Apache-2.0",
     "name": "zetacomponents/workflow-signal-slot-tiein",
     "type": "library",
-        "require": {
-            "zetacomponents/base": "*"
-        },
-        "require-dev": {
-            "zetacomponents/unit-test": "*"
-        }
+    "require": {
+        "zetacomponents/workflow": "~1.4",
+        "zetacomponents/signal-slot": "~1.1"
+    },
+    "require-dev": {
+        "zetacomponents/unit-test": "*"
+    }
 }
